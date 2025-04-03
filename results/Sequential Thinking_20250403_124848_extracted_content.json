@@ -1,0 +1,130 @@
+[
+  {
+    "url": "https://dchkang83.tistory.com/307",
+    "content_preview": "Cursor에서 MCP 사용 Tool/VSCode&Cursor 2025. 3. 6. 11:01 MCP(Model Context Protocol)에 대해서 알아보자. https://www.cursor.com/changelog MCP란? ANTHROPIC에서 Open Protocal로 공개한 Model Context Protocol 이다. 확장 가능한 연결시스템을 MCP를 통하여 활용가능하다. MCP는 직접 구축도 가능하고 Open되어져 있는 MCP Server도 사용 가능하다. Github MCP를 연동하게 되면 cursor Agent에게 Github의 PR을 만들거나 이슈를 생성하거나 하는 작업을 시킬수 있고 Supabase작업을 시킬수도 있고, Vercel을 연동해서 Agent에게 배포를 대신 Agent에게 시킬수 있다. ( https://www.youtube.com/watch?v=f2ibNsDdJ0U ) Open-Source MCP Servers https://cursor.dir"
+  },
+  {
+    "url": "https://www.gpters.org/nocode/post/mcp-installation-practice-sequential-qAwk7BV77ce8UIq",
+    "content_preview": "��=3�֤ Tgb���ן�+�V�;�B5��2��� \\ d�m>9�P�hW������z_��z�����Ȗ7�` J|�p�\"�\"5�m����2�>�W�yՆ�]�H7W�)�ǣeإ+Ҽ?����y�z�Ļ\"D�\"Ąѝ�K��V�~~?_} ��$9�K���f�\\x\"TL1�[�/����B/ �K��b~9�D� (f�@��&d:B#&�&���c��������Jk�J�M �q�����˧�p=M��M��a�:���3ިt��75p����� �Q��0S��G��IoI��I��A{8�)�IB�8 ����3n�p�^��]&�%���ݬ���� xg<�Q�g����>�B����?�u+��Q:N���➎;�OԢ0�>R��+�[l����\"e���I��u+0b�e�]���eW�+�ѳ���H{q�V%P��^~#�pCPf�ڔ1��=�cIJ\\.~�=t\"����3���?���%6a�}DN_��KJ��}� t�/_s(�I�#�}��+��)���� q_⎄��\\���D-���`غN�'�D� ��t�i=�e݈{(��)��R ;&#"
+  },
+  {
+    "url": "https://apidog.com/kr/blog/mcp-sequential-thinking/",
+    "content_preview": "전문 AI 에이전트 팀에 의해 코드가 제작되는 개발 환경을 상상해 보세요. Claude는 아키텍처를 설계하고, Gemini는 테스트를 작성하며, DeepSeek는 기능을 완벽하게 구현합니다 - 모두 완벽한 조화를 이루며 작업합니다. 이것은 미래의 환상이 아니라 MCP 순차적 사고와 OpenRouter의 결합 의 힘입니다. 이 가이드에서는 복잡한 프로젝트를 해결하기 위한 귀하의 비밀 무기를 만드는 방법을 보여드리겠습니다. MCP 순차적 사고란 무엇인가요? MCP (모델 컨텍스트 프로토콜) 순차적 사고 는 복잡한 코딩 문제를 명확하고 논리적이며 상호 연결된 단계로 나누어 해결하는 혁신적인 접근 방식입니다. 이것은 단순히 코딩하는 것이 아니라, 개발 프로세스의 각 단계에서 다양한 AI 모델의 강점을 활용하여 사고를 구조화하는 것입니다. 구현에 곧바로 뛰어들기보다는, MCP 순차적 사고는 다음을 강조합니다: 1. 정확한 문제 정의: 해결하고자 하는 문제를 명확하게 설명하여 모호함이 없도록 "
+  },
+  {
+    "url": "https://www.threads.net/@choi.openai/post/DHlBz2XsGyn/video-11-sequential-thinking-%ED%98%84%EC%9E%AC-%EC%B6%94%EB%A1%A0%EC%9D%84-%EB%B0%94%ED%83%95%EC%9C%BC%EB%A1%9C-%EB%8B%A4%EC%9D%8C-step%EC%9D%84-%EA%B3%84%ED%9A%8D?hl=ko",
+    "content_preview": "��0\"a ��Ԥ �H]����_�M|��|������j��� �NfDt]_/�c p����������/_��=ΐ��˦u�S�%,� I�~ 2���������o{� j:�箖 �* ���E4HT �����ﵷ�`�q �G�<a��H(7�� ɚ�Y �#��l��Qw�Uuo���1�{���� ���O�g͝�@���=;U#��[H�aX��'�k�*�ȼy�4�辝�^����u�k�aͽs��M=-V�v�G'!��\\׽���锍�~�Qv����xq�H�:���O�N�ب�7(��'A��� ܘ#���:��c�;����2���� ��tfjR]L �匞1�@ ��nrgXE.��+Y �<:�o��Xm��1��3ݷ��ƭ:�Yu��A7v��E|23�\\Ix���xÞ#u7��\"6�C�_ȬV��]���[��� ��Ȳ�c��7��P�4�mF��ł\" !f8�QF�K�H@L(�#ʡ`ID�1i��M� � �?�U{~\"/���tު&��.P��.��p_rH�O½��>N½.���V���w���W}` K�G4p'�=��&�թ>Fo��$"
+  },
+  {
+    "url": "https://kiss.kstudy.com/Detail/Ar?key=3906812",
+    "content_preview": "한국유아교육학회 한국유아교육학회 학술대회자료집 The Sequential Mediating Effects of Childcare Teachers’ Reflective Thinking and Teaching Efficacy in the Relationship between Playfulness and Creative Teaching The Sequential Mediating Effects of Childcare Teachers’ Reflective Thinking and Teaching Efficacy in the Relationship between Playfulness and Creative Teaching ( Sunmi Park ) , ( Jonghoon Kim ) 한국유아교육학회 2021.10 한국유아교육학회 학술대회자료집 2021권 1 호 275-277(3pages) UCI I410-ECN-0102-2022-300-000726459 ₩ 1,000 더보기 인용하기 URL 복사"
+  },
+  {
+    "url": "https://her.re.kr/journal/view.php?number=4724",
+    "content_preview": "Original Article Hum. Ecol. Res 2024;62(1):165-179. Published online: February 21, 2024 DOI: https://doi.org/10.6115/her.2024.012 초등학교 고학년 아동의 사회부과 완벽주의가 대인불안에 미치는 영향: 이분법적 사고와 거부민감성의 순차적 매개효과 강영서 1 , 박주희 2 1 연세대학교 아동·가족학과 상담 전공 학생 2 연세대학교 아동·가족학과 교수 The Effect of Socially Prescribed Perfectionism in Upper Elementary School Students on Their Interpersonal Anxiety: The Sequential Mediating Effect of Dichotomous Thinking and Rejection Sensitivity Youngseo Kang 1 , Ju Hee Park 2 1 Department of Chi"
+  },
+  {
+    "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003104046",
+    "content_preview": "문화기술의 융합 이 학술지 인용지수 조회 이 학술지 논문 검색 약어 : JCCT 2024, vol.10, no.4, pp. 357-365 (9 pages) 발행기관 : 국제문화기술진흥원 이 기관으로 동향 분석 이 기관 일반 현황 연구분야 : 복합학 이 분야로 동향 분석 이 분야로 인용지수 조회 이 분야로 논문 검색 > 과학기술학 이 분야로 동향 분석 이 분야로 인용지수 조회 이 분야로 논문 검색 > 기타과학기술학 안지수 /An Ji Su 1 , 남기원 /Nam, Kiwon 2 1 중앙대학교 유아교육학과 2 중앙대학교"
+  },
+  {
+    "url": "https://www.hulkapps.com/ko/blogs/ecommerce-hub/injijeog-dayangseong-hwalyong-hereuman-noeuwi-ceugjeongbeob-hbdi-r-reul-tonghan-hyangsangdoen-bijeuniseu-jeonryag-insaiteu",
+    "content_preview": "[�G4a[Zg�(�� 3@s��PG�?��c`0� �0-���t�=^��?f����6�t��Aβ�V��ڍc;��4���@$a�C���\\�a���0�6w���Y��ڬ���-5��fH�nU>!5�:��CR�n��-l��%�P<�9� ��_N�r��Y���)ֳU4n��$\\�=)��!Q-��Q�D�q�'{'E���xCf2?��q�H\\�[j��� �u� ���E�\\�;9{��3:�{�7U�_Uݫ_U�Uu7j�Ѐ�AB�������6� P�dJ� -�M�8sڳ=Q����f @iƟfN���2�{��i���Ӳ6#��J�3��Q��<����� PBw�UHV �wι���-�� kA.e3�\"��\"k\"�bE�{��T59�k��(�(\"�)Ϥ(�\"���]��x��ʸ�1�+ � �~<�Z��F�8�[����cS�Ǿ�\\�RhB`�`̬�g7���t�� c��� ������\"� �����+�$��14��cଭ��m��*���bwlDD@�� O4�ՙ-��ߒ|� 2��&cZ����� �I��l��جJ-��m��8�n�"
+  },
+  {
+    "url": "https://www.earticle.net/Article/A393041",
+    "content_preview": "400===Dev Library/Claude Claude Desktop App을 위한 MCP 서버 설치 가이드 🚀 블로글러 2025. 3. 1. 09:07 안녕하세요! 오늘은 Claude Desktop App의 능력을 확장시켜주는 MCP 서버 설치 방법에 대해 알려드릴게요. MCP 서버가 뭔가요? 🤔 여러분이 외국인과 대화하기 위해 통역사를 고용한다고 상상해보세요. Claude는 똑똑하지만 인터넷에 직접 접속할 수 없어요 MCP 서버는 Claude와 인터넷 세상 사이의 통역사 역할을 합니다! 쉽게 말해서 MCP(Model Context Protocol) 서버는: Claude가 인터넷 검색을 할 수 있게 해주는 도구 🔍 YouTube 영상 내용을 읽을 수 있게 해주는 마법의 안경 👓 복잡한 문제를 단계별로 생각하도록 도와주는 사고 도우미 🧠 어떤 MCP 서버들이 있나요? 💫 1. Brave Search 인터넷 전체를 검색할 수 있는 강력한 망원경! 뉴스, 블로그, 웹사이트 등 다양한 "
+  },
+  {
+    "url": "https://memoryhub.tistory.com/entry/Claude-Desktop-App%EC%9D%84-%EC%9C%84%ED%95%9C-MCP-%EC%84%9C%EB%B2%84-%EC%84%A4%EC%B9%98-%EA%B0%80%EC%9D%B4%EB%93%9C-%F0%9F%9A%80",
+    "content_preview": "클로드 MCP 설치(perplexity)(윈도우11) E Elijah 2025-03-26 00:20 mcp 설치는 걍 이제 이 글로 마무리!하려고 한다. 현재 망치가 63개 생겼다. 뭐 다 쓸지 모르겠지만 일단 시간 나는 대로 냅다 설치 중이다. 가장 최근에 설치한 것은 figma와 perplexity인데 figma는 막상 설치는 했는데 어떻게 쓰는지 모르겠다... 그래서 perplexity를 설명하고자 한다. 설치 방식은 같다. 퍼플렉시티 가입 또는 로그인 왼쪽 아래 설정으로 가서 API란으로 이동, 결제 카드 설정하고 크레딧을 구매한다. 승인이 나면 퍼플렉시티 API 키를 받을 수 있다. 이 api key를 복사한다. 그리고 아래의 곳에 API 키를 넣는다. 그리고 connect connect를 누르면 아래 사진과 같이 된다. 명령어는 가림 처리했다. 저 명령어를 copy 누르고 cmd 들어가서 붙여넣기 한다. 그리고 작업관리자 들어가서 프로세스란에서 claude 찾아서 작업 끝"
+  },
+  {
+    "url": "https://tilnote.io/pages/67e2c9da2a14e2a1ab36de7d",
+    "content_preview": "U��UF$����H�z{� !'� U�L��W �_~����ρ���d�Xmv����x}~�}N�mW�bG�z w�HH�sx��$Gi�GW����+�-��gK�g�G�V�zK�VK/K\\RK /������/ rW���kKG�~��}3|��. ��~��}�!�&#2�0y���i�����#� �Ue�C[�P���~�4��D���g�͡_w{���T�joS� ΤL��v蘨��N _� �%��b�bW��������\\N�!�k��� I�If4�)�m#2v�A�S� �����J��`ir�l��K��!����H2���+� ������*K@�1v�,u�]�[e���u.����;���0�w 8��90������E�aLN�ӸRU9��U+ӝ��+U�RV�e�4�����Zz4� h����n˕���j�1h|�e��n]؆pt!���5k1:��� �顡s]SG�n�y�Z&i�2�{2EO������ʞaC(3CC�'ɨ`X���+��<w{�l��}��%e(=L���굌�4D�FzF��6�Y�ɜ������7ռbp��J��sh"
+  },
+  {
+    "url": "https://www.lancastermennonite.org/ko/academics/kindergarten/",
+    "content_preview": "[��6a���� ��cDM�P��1n�_����`�=aZ6���r{�>������\\N�0ߓ�`���G�%���5ve\\�.4 �P� ��H�*��Yw{Ve۝��~�?�|�����ݗS��*�C���I� ��UL[��`1�X\"mp�B�T���͗���f.��:��� � g�����?� ����,0�u�.�9�{i}�����>��Q^�� �[Pj{���\"��Ȗ�����o�wXk� 7� �6rN�����Ū��Wu<�!�=$W�H :�TU� Cs�=�{��H9�/oC%��A\"e��}��21�y��|�L�@Y�]d|�ʸ�$W 2��{��W��[3 �j ��*Pv@S.���=�C�pI�X�ׂ��Xg�sI�m�,j� �õ8cMd\\���߯J�٨�9Q�!�j+a�h������w���Bx�{���T�\"�Y ��Vn���ȉ�q��u�*�!�(@��\"t���1��� '�6�Ƙ��ߣ�%�A� ��\\������_C �?��4�8 ���d�����u\"HH�@�!�co�֡���L�R��h�I@�1�s\"��+yCj�"
+  },
+  {
+    "url": "https://podcasts.apple.com/us/podcast/harvard-thinking/id1727411132?l=ko",
+    "content_preview": "q��~߾>���6�����}�����1n #���j����=]��T��j>�Ȉ X !�0h-;rD�`% F�o�_���I!!ᰈ��D8�C�yo������r'>m�ށ��]�׽�{� �- iBR�'T��^ŕ���懸&�E7U�4-!}SpX�Bi�tH^#�7�w��k�xQ1��7��_u�����(������i{<�s??�6�/��ͩ����c��4����u�m��c�ա�����T_��ek�p��:o���4n�۱>OCm~�>c��[{����������y�ߧ��o��R��<�ak�i����m���n7�3�[�z����֤a���e� ����������6���Ou���ggv���4��Ӻ�������e���s�L��\\w/�㑰��[x�ڤ~�m��yk���Z_�:�*��n��|y��~�0\\ w���uw���ԭ�c��;�\".���� ?���4���a� ���P����q ǀw��( ��'x�й�������O�r& i ��5�m�xY��.��MϕQ}���� ���EC�^2��q�u�a�K�X_.��V� "
+  },
+  {
+    "url": "https://lilys.ai/notes/781963",
+    "content_preview": "�?3��RQM�P��1n�_��2�����/!�� ��L#W����A���j�H;v�_~j���5o� @{�:��D;�C��$|�p$�jQ�#�����Jg����� i��Hȋ�����V:I�MA�A�@� q���=?����Y� ��\"6:t&<�����zF5�C�V`�7�Gh����G�M�)�B���Gr�Ky�!�'��>���hC���5[l�.��c̲�9*E'z���j��=�]r�d���eL�W��V0U�A�FލPV�? ?Bi�S��T�ȋ�*$�����º ����g���j�wi��� �����B�\\n�at=T��^oդ��W.8��Ʊ�%�6�;���\\�C9��S�Ee���JO e�q��?���[Y]�k��� c�.����yL5�BXb����s-�`V�ʶ[���ZE ������>�4���GX�+�������5����z��_Aݯ�-� *���$RSb8}Z�~>��_ j��R ���0���jDn���f�&�� J`��'���r|�|�sn��(�B�,і׋���8��𲂇�����R,��� u"
+  },
+  {
+    "url": "https://play.google.com/store/apps/details?id=com.ruanshaomin.game&hl=ko",
+    "content_preview": "The Korean Journal of Coaching Psychology (한국심리학회지 : 코칭) Volume 4 Issue 1 / Pages.1-19 / 2020 / 2586-0755(pISSN) / 2799-8444(eISSN) Korean Association of Coaching Psychology (한국코칭심리학회) A Study on Effect of Perfectionistic Self-presentation on Social Anxiety: Focused on serial mediated effect of intolerance of uncertainty and dichotomous thinking 완벽주의적 자기제시와 사회불안의 관계: 불확실성에 대한 내인력 부족과 이분법적 사고의 이중매개효과 Choi, Hokyoung (Hanyang Cyber University human service department) ; Shin, Kyoungmin (Hanyang Cyb"
+  },
+  {
+    "url": "https://english.ksfme.or.kr/xml/10872/10872.pdf",
+    "content_preview": "NCT 수의 충돌 이론 Kim Hna Elliptic Curve Cryptography Algorithm Kim Han 2020. 12. 1. 20:57 이웃추가 본문 기타 기능 본문 폰트 크기 조정 본문 폰트 크기 작게 보기 본문 폰트 크기 크게 보기 가 공유하기 URL 복사 신고하기 Elliptic Curve Cryptography Algorithm ECC Kim Han ECC Solution Table Algorithm G(x, y) (5,1) (3,1) (3,16) (5,16) (6,3) (6,14) (7,6) (7,11) (9,1) (9,16) (10,6) (10,11) (13,7) (13,10) (16,4) (16,13) (17,6) (17,11) (0,0) n=19, h=1 \" ECC is solved by ECC table only without calculation formula. ﻿\" (Kim Han) P=G(7,6) Q=G(10,6) ∴ P+Q=R(13,7) --"
+  },
+  {
+    "url": "https://newneek.co/@hurcequabi/article/24168",
+    "content_preview": "c�@�Դ�����٫E�y�QS�!��� \" I� @�-��I�a��}�h$ �׉ �^����Μ�����Η7̚��N(\"-�E4Q*$�Щ�\" j�1�����DDA@�<)J@�o_���^��j�}��; y\\`�V��~��дü�P���o_B�=�9� ����o����� x �� I���Z���D�����!����n �i� }\"�μ����5��8���p�]�u����V�{����� ��$N��,�2!��q���M��Jz�e�g�Qm�s�&X`���o8���h�V�A�O ��,��ʽ䨚�� 1=�t��B'?�-�Vb��$������H��-���n�2;�ت�U,��U �q�RR$Qz�Ɏ�U���|�#��Q�S��1Ɋ�@���� ��5 �7c�E)Nej@�F�o�i mRD����Pd+����x`�f����,bo-m�4���k�{H����8��� �1q�@���_�^�B� �����ue��z��IxPc+����Lj���lE�^�����q3 Z�+R���� 7bnl��0������<�-x� �P ݬ"
+  },
+  {
+    "url": "https://lilys.ai/notes/797129",
+    "content_preview": "한국명상학회 한국명상학회지 제15권 제1호 청소년의 마음챙김과 반추적 사고와의 관계: 정서인식명확성과 부정 정서의 순차적 매개효과 KCI등재 학술저널 즐겨찾기 청소년의 마음챙김과 반추적 사고와의 관계: 정서인식명확성과 부정 정서의 순차적 매개효과 Mindfulness and Ruminative thinking in Adolescents: Sequential Mediation by Emotional Clarity and Negative Affect 한국명상학회 한국명상학회지 제15권 제1호 : KCI등재 2025.02 81 - 104 (24 pages) 사회과학 심리학 16 원문저장 원문보기 본 연구는 청소년의 마음챙김이 반추적 사고를 감소시키는 과정에서 그 변화의 기제를 확인하기 위해 정서인식명확성과 부정 정서의 순차적 매개관계를 살펴보았다. K지역 소재 고등학교 재학생 328명을 대상으로 청소년용 마음챙김 다요인 척도, 특질 상위-기분 척도(정서인식 명확성), K-PANAS 척도,"
+  },
+  {
+    "url": "https://mcp.so/server/mcp-server/portone-io?tab=content",
+    "content_preview": "0���Ok����?:���Y��t�6g�\\���b� ��][�Bj^IW;CR��.�K�����& u�<;���}������O� j�B�Y0d 4\"��%�ry�� ��P�}�N�t�E\"SҘ���� ��٣�z�Z/�.D��B�� ���P���#)_��F��U;I�9Y��y=1�We]�Wg� o��9^W�� �.�):�wy��\"]�7h��%E���}��j�v���sr ;��S8a�KM����suAH_2YA`X�]jy��\\̩4��!5� �dS��ml�z6� �In�^��J�k�y������u�G�����s���K� ��O_��/�&Rc���Ɍ����_��J��5�V�� ��H/S�e��L1[����#:�K��\\]�.L��6 V�n#~���e?� �7 a�e 7� �����b�O]�i�k>�9��ml����5��(4(�3!��~�7Z변�o��qe��&�`���{,D� mZ ����s�r�����D�Ao ��h�w z�b+��G�B���� ��CÏ�@�w]��Y=����A@� ���+_�\\3"
+  },
+  {
+    "url": "https://www.koreascience.kr/article/JAKO202026961170036.page",
+    "content_preview": "마이너 갤러리 이슈박스, 최근방문 갤러리 연관 갤러리 특이점이 온다 갤러리 타 갤러리( 0 ) 이 갤러리가 연관 갤러리로 추가한 갤러리 이전 0 / 0 다음 타 갤러리 특이점이 온다 갤러리( 0 ) 이 갤러리를 연관 갤러리로 추가한 갤러리 이전 0 / 0 다음 연관 갤러리 레이어 닫기 마이너 갤러리 소개 소개 이미지 \" Don't Die \" 매니저 sama(prince2317) 부매니저 퐁칸8( zxvw157 ) かみ( thank346… ) VPN차단용( near1254 ) 카러닐( fasten97… ) 디비휴( runny783… ) DNA( hexase1 ) Asi( worship5… ) et( evgz6v8f… ) 개설일 2019-08-01 갤러리 관리 내역 부매니저 퐁칸8(zxvw157) 님은 부재중입니다. 부매니저 부재중 안내 부매니저가 장기간(최소 10일 이상) 부재 시 부재중으로 표시되며, 매니저에 의해 해임될 수 있습니다. 닫기 부매니저 かみ(thank3468) 님은 부"
+  },
+  {
+    "url": "https://m.blog.naver.com/rlagks05/222159862698",
+    "content_preview": "ISSN : 1229-0718 Article Contents Prev Next 2020 (Vol.33) 2025 (Vol.38) 2024 (Vol.37) 2023 (Vol.36) 2022 (Vol.35) 2021 (Vol.34) 2020 (Vol.33) 2019 (Vol.32) 2018 (Vol.31) 2017 (Vol.30) 2016 (Vol.29) 2015 (Vol.28) 2014 (Vol.27) 2013 (Vol.26) 2012 (Vol.25) 2011 (Vol.24) 2010 (Vol.23) 2009 (Vol.22) 2008 (Vol.21) 2007 (Vol.20) 2006 (Vol.19) 2005 (Vol.18) 2004 (Vol.17) 2003 (Vol.16) 2002 (Vol.14) 2001 (Vol.14) 2000 (Vol.13) 1999 (Vol.12) 1998 (Vol.11) 1997 (Vol.10) 1996 (Vol.9) 1995 (Vol.8) 1994 (Vol."
+  },
+  {
+    "url": "https://www.researchgate.net/publication/333148213_Effect_of_Socially_Prescribed_Perfectionism_on_Suicidal_Ideation_in_Korean_High_School_Students_and_the_Moderating_Role_of_Goodness_of_Sleep",
+    "content_preview": "마이너 갤러리 이슈박스, 최근방문 갤러리 연관 갤러리 특이점이 온다 갤러리 타 갤러리( 0 ) 이 갤러리가 연관 갤러리로 추가한 갤러리 이전 0 / 0 다음 타 갤러리 특이점이 온다 갤러리( 0 ) 이 갤러리를 연관 갤러리로 추가한 갤러리 이전 0 / 0 다음 연관 갤러리 레이어 닫기 마이너 갤러리 소개 소개 이미지 \" Don't Die \" 매니저 sama(prince2317) 부매니저 퐁칸8( zxvw157 ) かみ( thank346… ) VPN차단용( near1254 ) 카러닐( fasten97… ) 디비휴( runny783… ) DNA( hexase1 ) Asi( worship5… ) et( evgz6v8f… ) 개설일 2019-08-01 갤러리 관리 내역 부매니저 퐁칸8(zxvw157) 님은 부재중입니다. 부매니저 부재중 안내 부매니저가 장기간(최소 10일 이상) 부재 시 부재중으로 표시되며, 매니저에 의해 해임될 수 있습니다. 닫기 부매니저 かみ(thank3468) 님은 부"
+  },
+  {
+    "url": "https://scholar.kyobobook.co.kr/article/detail/4050070518185",
+    "content_preview": "페이지 정보 작성자 이코딩아카데미 댓글 0건 조회 1,791회 작성일 19-07-03 15:43 본문 \"모든 사람은 컴퓨터를 프로그래밍하는 법을 배워야 한다. 왜냐하면 그것은 당신에게 생각하는 법을 가르쳐 주기 때문이다.(Everybody should learn to program a computer, because it teaches you how to think.)\"_스티브 잡스(Steve Jobs) ​만약 아이가 올해 1학년이 되면, 2031년에 대학에 입학해 현재와는 근본적으로 다른 세계에 살게 된다. 이 때문에 아이들이 기술의 빠른 진화에 적응할 수 있도록 미래에 대비시키는 것이 중요하다. 이를 위해서는 코딩(Coding)을 배워두는 것이 현명한 방법일지 모른다. ​코딩을 배우면 컴퓨터 소프트웨어, 앱, 웹사이트를 만드는 것을 가능하게 한다. 브라우저, 휴대폰에 있는 운영 소프트웨어, 좋아하는 앱 등이 모두 코딩으로 만들어졌다. 코딩 언어를 배우는 것은 아이의 개인적, 학문"
+  },
+  {
+    "url": "https://zuzu.network/resource/blog/silicon-valley-vc-way-of-thinking/",
+    "content_preview": "로드 중... 현재 시스템이 작동되지 않습니다. 나중에 다시 시도해 주세요. 연간 인용횟수 중복된 서지정보 병합된 서지정보 이 '인용' 횟수는 학술검색의 다음 학술 문서에 대한 인용문을 포함합니다. * 표시된 인용문은 프로필에 있는 학술 문서와 다를 수 있습니다. 공동 저자 추가 공동 저자 팔로우 내 프로필 내 서재 통계 알리미 설정 로그인 로그인 내 프로필 만들기 인용 모두 보기 전체 2020년 이후 서지정보 1253 1046 h-index 13 12 i10-index 13 12 0 260 130 65 195 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 4 10 17 24 25 39 68 110 165 223 220 260 64 공개 액세스 모두 보기 모두 보기 자료 2개 자료 0개 공개 비공개 재정 지원 요구사항 기준 팔로우 Matthew Backus UC Berkeley berkeley.edu의 이메일 확인"
+  },
+  {
+    "url": "https://kr.pinterest.com/pin/664632857542375612/",
+    "content_preview": "THE KOREAN JOURNAL OF DEVELOPMENTAL PSYCHOLOGY 2023 KCI Impact Factor : 1.67 pISSN : 1229-0718 / eISSN : 2671-6542 https://journal.kci.go.kr/baldal"
+  },
+  {
+    "url": "https://m.dcinside.com/board/thesingularity/687767?page=2",
+    "content_preview": "Journal of The Korean Association of Information Education (정보교육학회논문지) Volume 25 Issue 6 / Pages.987-994 / 2021 / 1229-3245(pISSN) / 2733-8428(eISSN) Korea Association of Information Education (한국정보교육학회) DOI QR Code Programming Language Curriculum for Computational Thinking : Starting with Lightbot hour and Classic maze 컴퓨팅 사고력을 위한 프로그래밍 언어 교육과정 : 라이트봇 게임과 고전 미로 게임으로 시작하기 Jun, Bungwoo (Gilwon Elementary school) ; Shin, Seungki (Seoul National University of Education) 전병우 (서울길원초등학교) ; 신승기 (서울교육대학"
+  },
+  {
+    "url": "https://accesson.kr/jkdp/v.33/3/19/18452",
+    "content_preview": "로드 중... 현재 시스템이 작동되지 않습니다. 나중에 다시 시도해 주세요. 연간 인용횟수 중복된 서지정보 병합된 서지정보 이 '인용' 횟수는 학술검색의 다음 학술 문서에 대한 인용문을 포함합니다. * 표시된 인용문은 프로필에 있는 학술 문서와 다를 수 있습니다. 공동 저자 추가 공동 저자 팔로우 내 프로필 내 서재 통계 알리미 설정 로그인 로그인 내 프로필 만들기 인용 전체 2020년 이후 서지정보 12 12 h-index 2 2 i10-index 0 0 0 6 3 2023 2024 2025 5 4 3 팔로우 Sohheon Yang Ph.D. Student at Indiana University iu.edu의 이메일 확인됨 Technology integration for early childhood Teachers' technological professional development 학술자료 인용 개인정보처리방침 약관 도움말 학술검색 정보 검색 도움말"
+  },
+  {
+    "url": "https://m.dcinside.com/board/thesingularity/687755?page=2",
+    "content_preview": "SI(Systems Intelligence) Lab 학과 산업및시스템공학과 교원 박진규 연구분야 #에너지 시스템 최적 설계 및 운영 #데이터 기반 시스템 모니터링 및 제어 #게임이론과 인공지능 기법을 활용한 스마트그리드 최적 운영 DO(Decision ＆ Operations) Lab 학과 산업및시스템공학과 교원 민승기 연구분야 #동적인 환경에서의 최적의사결정 방법론의 연구 AAI(Applied Artificial Intelli.. 학과 산업및시스템공학과 교원 문일철 연구분야 #국방, 재난 등의 사회 현상에 대한 모델링 및 시뮬레이션 #경제, 텍스트, GIS데이터에 대한 머신 러닝 알고리즘 개발 #스마트 기계, 센서 기반의 스마트 제조 산업통계 연구실 학과 산업및시스템공학과 교원 김희영 연구분야 #응용통계 #머신러닝 MSS(Manufacturing ＆ Service Sy.. 학과 산업및시스템공학과 교원 김현정 연구분야 #이산사건 시스템 모델링 및 스케줄링 #생산관리 및 물류관리 #머신"
+  },
+  {
+    "url": "http://www.ecodingacademy.co.kr/je/bbs/board.php?bo_table=nt_news&wr_id=3",
+    "content_preview": "이 사이트 검색 삽입된 파일 메인 콘텐츠로 건너뛰기 탐색으로 건너뛰기 SYNGJOO CHOI (최승주) Contact Details Professor, Department of Economics, Seoul National University . Mailing Address: Department of Economics, Seoul National University, 1 Gwanak-ro, Gwanak-gu, Seoul, Republic of Korea Email: syngjooc at snu.ac.kr Visiting Distinguished Research Professor of Economics, University of Limassol , Feb. 2024 ~ Feb. 2027 Google Citation Profile CV 2023 Asia-Pacific Economic Science Association Meeting, Seoul, Republic of Korea Virt"
+  },
+  {
+    "url": "https://scholar.google.co.kr/citations?user=L-2lM1YAAAAJ&hl=ko",
+    "content_preview": "Academy / Notice WeSA 아카데미 Vol.37 WeSA Academy Vol.37 Volume 37 (2025년 2회차) 수강신청이 마감되었습니다. 개강 : 2025년 4월 5일, 6일 (강의마다 개강일이 다르니 아래 시간표를 참고해 주세요.) 장소 : 서울시 마포구 토정로 9길 2 THILA 2층 (오프라인) 수강신청 : WeSA Shop 강의 목록 (자세한 내용을 확인하려면 링크를 클릭하세요.) 🔗Ableton Live를 통해 배우는 스타일리시 사운드 디자인 중급 🔗Visual Thinking – TouchDesigner 입문 🔗Visual Thinking – TouchDesigner 중급 🔗상호작용 장치의 이해를 위한 피지컬 컴퓨팅 🔗Make Generative Ambient Music with Max *강의마다 개강일이 다르니 아래 시간표를 참고해 주세요. Volume 37 (2st Session of 2025) Start Date: April 5, 2025, "
+  },
+  {
+    "url": "https://journal.kci.go.kr/baldal/archive/articleView?artiId=ART002624997",
+    "content_preview": "���Ϧ��\\N��^4�. G�Nin��� � �$b����3���M���i\"ĀwUi$]�hu)��r������2��|􄧌�~���1���;�!� ���{�V� ]��hw��n���v��i�ۍ�:�f��o��w�]�w۽Fג�n��n5�W��Q�[bX���,,z���NV���w�?g���v������K��Kp�^�� �sѓ�/���Y� ��(kL&]���i���tӀ_G����4>��r�����u��EQ݌Ɠ����m3x�������: ���v�w�V?׺ �������Eu�U���g�巛 �����#~����m�n��&|��ߓ��{��G��!�Q7�G��6��3 ��I�č����s�r�qu�a��U`_Nfo���6f�gY V|�=l���w��A{��R7I���|� W}���o�3;/�rB)XG��[̤#Ǜ��`�}��0���5� $וJ� ����\"�K�̱^Q��{�}�J 1��q��%^\\$�MB ��g�r���*.��J�r��_��ζ�Q !���mץ�8oe�b�~��2�f�D�ᮞ�c��[���"
+  },
+  {
+    "url": "https://koreascience.kr/article/JAKO202108761035828.page",
+    "content_preview": "Home AI Report 인공지능의 깊이 있는 사고, 구글 딥마인드가 해냈다…자연어 계획 분야 98% 정확도 달성 인공지능의 깊이 있는 사고, 구글 딥마인드가 해냈다…자연어 계획 분야 98% 정확도 달성 AI 매터스 2025년 01월 22일 2 Minute Read 이미지출처: 구글딥마인드 이미지 편집 Evolving Deeper LLM Thinking 마인드 에볼루션으로 한 단계 도약…TravelPlanner 100%, Meeting Planning 98.4% 달성 구글 딥마인드가 2025년 1월 발표한 연구에 따르면, 마인드 에볼루션(Mind Evolution)이라는 새로운 진화 검색 전략을 통해 대규모 언어 모델의 추론 능력을 크게 향상시켰다. 기존의 1회성 추론 방식으로는 TravelPlanner에서 5.6%, Meeting Planning에서 20.8%의 낮은 성공률을 보였으나, 마인드 에볼루션을 적용한 제미니 1.5 프로는 각각 100%와 98.4%의 성공률을 달성했다."
+  }
+]

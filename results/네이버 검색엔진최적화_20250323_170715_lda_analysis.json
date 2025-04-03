@@ -1,0 +1,593 @@
+{
+  "query": "네이버 검색엔진최적화",
+  "language": "en",
+  "num_results": 40,
+  "topics": [
+    {
+      "id": 0,
+      "keywords": [
+        "naver",
+        "search",
+        "seo",
+        "content",
+        "korea",
+        "google",
+        "korean",
+        "listitem",
+        "https",
+        "com"
+      ],
+      "weight": 0.010299260320607573
+    },
+    {
+      "id": 1,
+      "keywords": [
+        "search",
+        "naver",
+        "korea",
+        "content",
+        "google",
+        "seo",
+        "korean",
+        "results",
+        "listitem",
+        "itemprop"
+      ],
+      "weight": 0.012279425747692585
+    },
+    {
+      "id": 2,
+      "keywords": [
+        "naver",
+        "search",
+        "seo",
+        "content",
+        "google",
+        "korea",
+        "korean",
+        "listitem",
+        "https",
+        "com"
+      ],
+      "weight": 0.1258431295864284
+    },
+    {
+      "id": 3,
+      "keywords": [
+        "naver",
+        "search",
+        "seo",
+        "content",
+        "korea",
+        "korean",
+        "https",
+        "listitem",
+        "google",
+        "results"
+      ],
+      "weight": 0.012882856011856347
+    },
+    {
+      "id": 4,
+      "keywords": [
+        "naver",
+        "search",
+        "seo",
+        "content",
+        "korea",
+        "google",
+        "https",
+        "url",
+        "results",
+        "itemprop"
+      ],
+      "weight": 0.009901776153128594
+    }
+  ],
+  "token_analysis": {
+    "total_tokens": 22854,
+    "top_tokens": [
+      [
+        "naver",
+        326
+      ],
+      [
+        "search",
+        239
+      ],
+      [
+        "seo",
+        150
+      ],
+      [
+        "content",
+        130
+      ],
+      [
+        "google",
+        118
+      ],
+      [
+        "korea",
+        113
+      ],
+      [
+        "korean",
+        91
+      ],
+      [
+        "listitem",
+        78
+      ],
+      [
+        "https",
+        73
+      ],
+      [
+        "com",
+        68
+      ],
+      [
+        "results",
+        67
+      ],
+      [
+        "itemprop",
+        66
+      ],
+      [
+        "example",
+        61
+      ],
+      [
+        "2018",
+        55
+      ],
+      [
+        "url",
+        55
+      ],
+      [
+        "south",
+        51
+      ],
+      [
+        "blog",
+        50
+      ],
+      [
+        "engine",
+        46
+      ],
+      [
+        "original",
+        45
+      ],
+      [
+        "retrieved",
+        45
+      ],
+      [
+        "archived",
+        44
+      ],
+      [
+        "website",
+        41
+      ],
+      [
+        "kim",
+        39
+      ],
+      [
+        "like",
+        38
+      ],
+      [
+        "new",
+        38
+      ],
+      [
+        "kang",
+        38
+      ],
+      [
+        "name",
+        38
+      ],
+      [
+        "joon",
+        38
+      ],
+      [
+        "이메일",
+        37
+      ],
+      [
+        "확인됨",
+        37
+      ],
+      [
+        "image",
+        35
+      ],
+      [
+        "web",
+        32
+      ],
+      [
+        "site",
+        32
+      ],
+      [
+        "page",
+        31
+      ],
+      [
+        "pubmed",
+        31
+      ],
+      [
+        "2021",
+        30
+      ],
+      [
+        "2014",
+        30
+      ],
+      [
+        "user",
+        29
+      ],
+      [
+        "keyword",
+        29
+      ],
+      [
+        "pages",
+        29
+      ],
+      [
+        "market",
+        28
+      ],
+      [
+        "users",
+        28
+      ],
+      [
+        "university",
+        28
+      ],
+      [
+        "2017",
+        28
+      ],
+      [
+        "baidu",
+        27
+      ],
+      [
+        "may",
+        27
+      ],
+      [
+        "position",
+        27
+      ],
+      [
+        "rank",
+        26
+      ],
+      [
+        "type",
+        26
+      ],
+      [
+        "span",
+        26
+      ]
+    ]
+  },
+  "content_guides": [
+    {
+      "topic_id": 0,
+      "topic_weight": 0.010299260320607573,
+      "main_keywords": [
+        "naver",
+        "search",
+        "seo",
+        "content",
+        "korea"
+      ],
+      "title_suggestions": [
+        "네이버 검색엔진최적화 - naver 및 search에 대한 가이드",
+        "naver를 활용한 네이버 검색엔진최적화 최적화 방법",
+        "네이버 검색엔진최적화에서 naver의 중요성",
+        "naver와 search로 알아보는 네이버 검색엔진최적화"
+      ],
+      "heading_structure": [
+        "naver와 네이버 검색엔진최적화의 관계",
+        "search을 통한 네이버 검색엔진최적화 이해하기",
+        "네이버 검색엔진최적화의 중요한 요소: seo와 content",
+        "naver을 활용한 네이버 검색엔진최적화 전략",
+        "결론: 네이버 검색엔진최적화와 korea의 미래"
+      ],
+      "content_outline": [
+        "소개: 네이버 검색엔진최적화와 naver의 개요 및 중요성",
+        "주요 섹션 1: naver와 search의 상세 설명",
+        "주요 섹션 2: seo의 역할과 활용 방법",
+        "주요 섹션 3: content을 통한 효과적인 네이버 검색엔진최적화 전략",
+        "사례 연구: korea를 활용한 성공 사례",
+        "FAQ 및 자주 묻는 질문",
+        "결론 및 요약"
+      ]
+    },
+    {
+      "topic_id": 1,
+      "topic_weight": 0.012279425747692585,
+      "main_keywords": [
+        "search",
+        "naver",
+        "korea",
+        "content",
+        "google"
+      ],
+      "title_suggestions": [
+        "네이버 검색엔진최적화 - search 및 naver에 대한 가이드",
+        "search를 활용한 네이버 검색엔진최적화 최적화 방법",
+        "네이버 검색엔진최적화에서 search의 중요성",
+        "search와 naver로 알아보는 네이버 검색엔진최적화"
+      ],
+      "heading_structure": [
+        "search와 네이버 검색엔진최적화의 관계",
+        "naver을 통한 네이버 검색엔진최적화 이해하기",
+        "네이버 검색엔진최적화의 중요한 요소: korea와 content",
+        "search을 활용한 네이버 검색엔진최적화 전략",
+        "결론: 네이버 검색엔진최적화와 google의 미래"
+      ],
+      "content_outline": [
+        "소개: 네이버 검색엔진최적화와 search의 개요 및 중요성",
+        "주요 섹션 1: search와 naver의 상세 설명",
+        "주요 섹션 2: korea의 역할과 활용 방법",
+        "주요 섹션 3: content을 통한 효과적인 네이버 검색엔진최적화 전략",
+        "사례 연구: google를 활용한 성공 사례",
+        "FAQ 및 자주 묻는 질문",
+        "결론 및 요약"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "topic_weight": 0.1258431295864284,
+      "main_keywords": [
+        "naver",
+        "search",
+        "seo",
+        "content",
+        "google"
+      ],
+      "title_suggestions": [
+        "네이버 검색엔진최적화 - naver 및 search에 대한 가이드",
+        "naver를 활용한 네이버 검색엔진최적화 최적화 방법",
+        "네이버 검색엔진최적화에서 naver의 중요성",
+        "naver와 search로 알아보는 네이버 검색엔진최적화"
+      ],
+      "heading_structure": [
+        "naver와 네이버 검색엔진최적화의 관계",
+        "search을 통한 네이버 검색엔진최적화 이해하기",
+        "네이버 검색엔진최적화의 중요한 요소: seo와 content",
+        "naver을 활용한 네이버 검색엔진최적화 전략",
+        "결론: 네이버 검색엔진최적화와 google의 미래"
+      ],
+      "content_outline": [
+        "소개: 네이버 검색엔진최적화와 naver의 개요 및 중요성",
+        "주요 섹션 1: naver와 search의 상세 설명",
+        "주요 섹션 2: seo의 역할과 활용 방법",
+        "주요 섹션 3: content을 통한 효과적인 네이버 검색엔진최적화 전략",
+        "사례 연구: google를 활용한 성공 사례",
+        "FAQ 및 자주 묻는 질문",
+        "결론 및 요약"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "topic_weight": 0.012882856011856347,
+      "main_keywords": [
+        "naver",
+        "search",
+        "seo",
+        "content",
+        "korea"
+      ],
+      "title_suggestions": [
+        "네이버 검색엔진최적화 - naver 및 search에 대한 가이드",
+        "naver를 활용한 네이버 검색엔진최적화 최적화 방법",
+        "네이버 검색엔진최적화에서 naver의 중요성",
+        "naver와 search로 알아보는 네이버 검색엔진최적화"
+      ],
+      "heading_structure": [
+        "naver와 네이버 검색엔진최적화의 관계",
+        "search을 통한 네이버 검색엔진최적화 이해하기",
+        "네이버 검색엔진최적화의 중요한 요소: seo와 content",
+        "naver을 활용한 네이버 검색엔진최적화 전략",
+        "결론: 네이버 검색엔진최적화와 korea의 미래"
+      ],
+      "content_outline": [
+        "소개: 네이버 검색엔진최적화와 naver의 개요 및 중요성",
+        "주요 섹션 1: naver와 search의 상세 설명",
+        "주요 섹션 2: seo의 역할과 활용 방법",
+        "주요 섹션 3: content을 통한 효과적인 네이버 검색엔진최적화 전략",
+        "사례 연구: korea를 활용한 성공 사례",
+        "FAQ 및 자주 묻는 질문",
+        "결론 및 요약"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "topic_weight": 0.009901776153128594,
+      "main_keywords": [
+        "naver",
+        "search",
+        "seo",
+        "content",
+        "korea"
+      ],
+      "title_suggestions": [
+        "네이버 검색엔진최적화 - naver 및 search에 대한 가이드",
+        "naver를 활용한 네이버 검색엔진최적화 최적화 방법",
+        "네이버 검색엔진최적화에서 naver의 중요성",
+        "naver와 search로 알아보는 네이버 검색엔진최적화"
+      ],
+      "heading_structure": [
+        "naver와 네이버 검색엔진최적화의 관계",
+        "search을 통한 네이버 검색엔진최적화 이해하기",
+        "네이버 검색엔진최적화의 중요한 요소: seo와 content",
+        "naver을 활용한 네이버 검색엔진최적화 전략",
+        "결론: 네이버 검색엔진최적화와 korea의 미래"
+      ],
+      "content_outline": [
+        "소개: 네이버 검색엔진최적화와 naver의 개요 및 중요성",
+        "주요 섹션 1: naver와 search의 상세 설명",
+        "주요 섹션 2: seo의 역할과 활용 방법",
+        "주요 섹션 3: content을 통한 효과적인 네이버 검색엔진최적화 전략",
+        "사례 연구: korea를 활용한 성공 사례",
+        "FAQ 및 자주 묻는 질문",
+        "결론 및 요약"
+      ]
+    }
+  ],
+  "seo_keywords": {
+    "primary": [
+      [
+        "naver",
+        326
+      ],
+      [
+        "search",
+        239
+      ],
+      [
+        "seo",
+        150
+      ],
+      [
+        "content",
+        130
+      ],
+      [
+        "google",
+        118
+      ]
+    ],
+    "secondary": [
+      [
+        "korea",
+        113
+      ],
+      [
+        "korean",
+        91
+      ],
+      [
+        "listitem",
+        78
+      ],
+      [
+        "https",
+        73
+      ],
+      [
+        "com",
+        68
+      ],
+      [
+        "results",
+        67
+      ],
+      [
+        "itemprop",
+        66
+      ],
+      [
+        "example",
+        61
+      ],
+      [
+        "2018",
+        55
+      ],
+      [
+        "url",
+        55
+      ]
+    ],
+    "related": [
+      [
+        "south",
+        51
+      ],
+      [
+        "blog",
+        50
+      ],
+      [
+        "engine",
+        46
+      ],
+      [
+        "original",
+        45
+      ],
+      [
+        "retrieved",
+        45
+      ],
+      [
+        "archived",
+        44
+      ],
+      [
+        "website",
+        41
+      ],
+      [
+        "kim",
+        39
+      ],
+      [
+        "like",
+        38
+      ],
+      [
+        "new",
+        38
+      ],
+      [
+        "kang",
+        38
+      ],
+      [
+        "name",
+        38
+      ],
+      [
+        "joon",
+        38
+      ],
+      [
+        "이메일",
+        37
+      ],
+      [
+        "확인됨",
+        37
+      ]
+    ]
+  },
+  "timestamp": "20250323_170715",
+  "saved_files": {
+    "search_results": "네이버 검색엔진최적화_20250323_170715_search_results.json",
+    "extracted_content": "네이버 검색엔진최적화_20250323_170715_extracted_content.json",
+    "analysis_result": "네이버 검색엔진최적화_20250323_170715_lda_analysis.json"
+  }
+}

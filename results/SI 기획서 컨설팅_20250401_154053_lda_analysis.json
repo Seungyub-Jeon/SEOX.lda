@@ -1,0 +1,593 @@
+{
+  "query": "SI 기획서 컨설팅",
+  "language": "en",
+  "num_results": 12,
+  "topics": [
+    {
+      "id": 0,
+      "keywords": [
+        "intelligence",
+        "des",
+        "artificielle",
+        "les",
+        "une",
+        "sur",
+        "est",
+        "types",
+        "capacités",
+        "views"
+      ],
+      "weight": 0.03127300017513335
+    },
+    {
+      "id": 1,
+      "keywords": [
+        "intelligence",
+        "artificielle",
+        "les",
+        "des",
+        "une",
+        "types",
+        "est",
+        "sur",
+        "qui",
+        "générale"
+      ],
+      "weight": 0.03177654813043773
+    },
+    {
+      "id": 2,
+      "keywords": [
+        "des",
+        "intelligence",
+        "les",
+        "artificielle",
+        "une",
+        "dans",
+        "qui",
+        "types",
+        "spécifiques",
+        "est"
+      ],
+      "weight": 0.03149806777946651
+    },
+    {
+      "id": 3,
+      "keywords": [
+        "intelligence",
+        "des",
+        "artificielle",
+        "les",
+        "une",
+        "est",
+        "types",
+        "views",
+        "sur",
+        "qui"
+      ],
+      "weight": 0.10796962166205049
+    },
+    {
+      "id": 4,
+      "keywords": [
+        "intelligence",
+        "des",
+        "artificielle",
+        "les",
+        "une",
+        "dans",
+        "views",
+        "qui",
+        "sur",
+        "types"
+      ],
+      "weight": 0.03258944326080382
+    }
+  ],
+  "token_analysis": {
+    "total_tokens": 9138,
+    "top_tokens": [
+      [
+        "intelligence",
+        17
+      ],
+      [
+        "des",
+        15
+      ],
+      [
+        "artificielle",
+        13
+      ],
+      [
+        "les",
+        11
+      ],
+      [
+        "une",
+        7
+      ],
+      [
+        "sur",
+        5
+      ],
+      [
+        "est",
+        5
+      ],
+      [
+        "qui",
+        5
+      ],
+      [
+        "types",
+        5
+      ],
+      [
+        "dans",
+        5
+      ],
+      [
+        "views",
+        5
+      ],
+      [
+        "générale",
+        4
+      ],
+      [
+        "spécifiques",
+        4
+      ],
+      [
+        "capacités",
+        4
+      ],
+      [
+        "t1uls",
+        4
+      ],
+      [
+        "orthographic",
+        4
+      ],
+      [
+        "bna",
+        3
+      ],
+      [
+        "s4o",
+        3
+      ],
+      [
+        "unp",
+        3
+      ],
+      [
+        "vise",
+        3
+      ],
+      [
+        "humaine",
+        3
+      ],
+      [
+        "réaliser",
+        3
+      ],
+      [
+        "comme",
+        3
+      ],
+      [
+        "humain",
+        3
+      ],
+      [
+        "tâches",
+        3
+      ],
+      [
+        "applications",
+        3
+      ],
+      [
+        "que",
+        3
+      ],
+      [
+        "humaines",
+        3
+      ],
+      [
+        "asi",
+        3
+      ],
+      [
+        "théorique",
+        3
+      ],
+      [
+        "hxr",
+        3
+      ],
+      [
+        "idi",
+        3
+      ],
+      [
+        "vqv",
+        3
+      ],
+      [
+        "wvu",
+        3
+      ],
+      [
+        "hbv",
+        3
+      ],
+      [
+        "zyd",
+        3
+      ],
+      [
+        "nxm",
+        3
+      ],
+      [
+        "h5һ",
+        3
+      ],
+      [
+        "ta5",
+        2
+      ],
+      [
+        "eg1",
+        2
+      ],
+      [
+        "483",
+        2
+      ],
+      [
+        "0i0",
+        2
+      ],
+      [
+        "xbd",
+        2
+      ],
+      [
+        "wua",
+        2
+      ],
+      [
+        "jeu",
+        2
+      ],
+      [
+        "oef",
+        2
+      ],
+      [
+        "gyo",
+        2
+      ],
+      [
+        "hyn",
+        2
+      ],
+      [
+        "opc",
+        2
+      ],
+      [
+        "1vl",
+        2
+      ]
+    ]
+  },
+  "content_guides": [
+    {
+      "topic_id": 0,
+      "topic_weight": 0.03127300017513335,
+      "main_keywords": [
+        "intelligence",
+        "des",
+        "artificielle",
+        "les",
+        "une"
+      ],
+      "title_suggestions": [
+        "SI 기획서 컨설팅 - intelligence 및 des에 대한 가이드",
+        "intelligence를 활용한 SI 기획서 컨설팅 최적화 방법",
+        "SI 기획서 컨설팅에서 intelligence의 중요성",
+        "intelligence와 des로 알아보는 SI 기획서 컨설팅"
+      ],
+      "heading_structure": [
+        "intelligence와 SI 기획서 컨설팅의 관계",
+        "des을 통한 SI 기획서 컨설팅 이해하기",
+        "SI 기획서 컨설팅의 중요한 요소: artificielle와 les",
+        "intelligence을 활용한 SI 기획서 컨설팅 전략",
+        "결론: SI 기획서 컨설팅와 une의 미래"
+      ],
+      "content_outline": [
+        "소개: SI 기획서 컨설팅와 intelligence의 개요 및 중요성",
+        "주요 섹션 1: intelligence와 des의 상세 설명",
+        "주요 섹션 2: artificielle의 역할과 활용 방법",
+        "주요 섹션 3: les을 통한 효과적인 SI 기획서 컨설팅 전략",
+        "사례 연구: une를 활용한 성공 사례",
+        "FAQ 및 자주 묻는 질문",
+        "결론 및 요약"
+      ]
+    },
+    {
+      "topic_id": 1,
+      "topic_weight": 0.03177654813043773,
+      "main_keywords": [
+        "intelligence",
+        "artificielle",
+        "les",
+        "des",
+        "une"
+      ],
+      "title_suggestions": [
+        "SI 기획서 컨설팅 - intelligence 및 artificielle에 대한 가이드",
+        "intelligence를 활용한 SI 기획서 컨설팅 최적화 방법",
+        "SI 기획서 컨설팅에서 intelligence의 중요성",
+        "intelligence와 artificielle로 알아보는 SI 기획서 컨설팅"
+      ],
+      "heading_structure": [
+        "intelligence와 SI 기획서 컨설팅의 관계",
+        "artificielle을 통한 SI 기획서 컨설팅 이해하기",
+        "SI 기획서 컨설팅의 중요한 요소: les와 des",
+        "intelligence을 활용한 SI 기획서 컨설팅 전략",
+        "결론: SI 기획서 컨설팅와 une의 미래"
+      ],
+      "content_outline": [
+        "소개: SI 기획서 컨설팅와 intelligence의 개요 및 중요성",
+        "주요 섹션 1: intelligence와 artificielle의 상세 설명",
+        "주요 섹션 2: les의 역할과 활용 방법",
+        "주요 섹션 3: des을 통한 효과적인 SI 기획서 컨설팅 전략",
+        "사례 연구: une를 활용한 성공 사례",
+        "FAQ 및 자주 묻는 질문",
+        "결론 및 요약"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "topic_weight": 0.03149806777946651,
+      "main_keywords": [
+        "des",
+        "intelligence",
+        "les",
+        "artificielle",
+        "une"
+      ],
+      "title_suggestions": [
+        "SI 기획서 컨설팅 - des 및 intelligence에 대한 가이드",
+        "des를 활용한 SI 기획서 컨설팅 최적화 방법",
+        "SI 기획서 컨설팅에서 des의 중요성",
+        "des와 intelligence로 알아보는 SI 기획서 컨설팅"
+      ],
+      "heading_structure": [
+        "des와 SI 기획서 컨설팅의 관계",
+        "intelligence을 통한 SI 기획서 컨설팅 이해하기",
+        "SI 기획서 컨설팅의 중요한 요소: les와 artificielle",
+        "des을 활용한 SI 기획서 컨설팅 전략",
+        "결론: SI 기획서 컨설팅와 une의 미래"
+      ],
+      "content_outline": [
+        "소개: SI 기획서 컨설팅와 des의 개요 및 중요성",
+        "주요 섹션 1: des와 intelligence의 상세 설명",
+        "주요 섹션 2: les의 역할과 활용 방법",
+        "주요 섹션 3: artificielle을 통한 효과적인 SI 기획서 컨설팅 전략",
+        "사례 연구: une를 활용한 성공 사례",
+        "FAQ 및 자주 묻는 질문",
+        "결론 및 요약"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "topic_weight": 0.10796962166205049,
+      "main_keywords": [
+        "intelligence",
+        "des",
+        "artificielle",
+        "les",
+        "une"
+      ],
+      "title_suggestions": [
+        "SI 기획서 컨설팅 - intelligence 및 des에 대한 가이드",
+        "intelligence를 활용한 SI 기획서 컨설팅 최적화 방법",
+        "SI 기획서 컨설팅에서 intelligence의 중요성",
+        "intelligence와 des로 알아보는 SI 기획서 컨설팅"
+      ],
+      "heading_structure": [
+        "intelligence와 SI 기획서 컨설팅의 관계",
+        "des을 통한 SI 기획서 컨설팅 이해하기",
+        "SI 기획서 컨설팅의 중요한 요소: artificielle와 les",
+        "intelligence을 활용한 SI 기획서 컨설팅 전략",
+        "결론: SI 기획서 컨설팅와 une의 미래"
+      ],
+      "content_outline": [
+        "소개: SI 기획서 컨설팅와 intelligence의 개요 및 중요성",
+        "주요 섹션 1: intelligence와 des의 상세 설명",
+        "주요 섹션 2: artificielle의 역할과 활용 방법",
+        "주요 섹션 3: les을 통한 효과적인 SI 기획서 컨설팅 전략",
+        "사례 연구: une를 활용한 성공 사례",
+        "FAQ 및 자주 묻는 질문",
+        "결론 및 요약"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "topic_weight": 0.03258944326080382,
+      "main_keywords": [
+        "intelligence",
+        "des",
+        "artificielle",
+        "les",
+        "une"
+      ],
+      "title_suggestions": [
+        "SI 기획서 컨설팅 - intelligence 및 des에 대한 가이드",
+        "intelligence를 활용한 SI 기획서 컨설팅 최적화 방법",
+        "SI 기획서 컨설팅에서 intelligence의 중요성",
+        "intelligence와 des로 알아보는 SI 기획서 컨설팅"
+      ],
+      "heading_structure": [
+        "intelligence와 SI 기획서 컨설팅의 관계",
+        "des을 통한 SI 기획서 컨설팅 이해하기",
+        "SI 기획서 컨설팅의 중요한 요소: artificielle와 les",
+        "intelligence을 활용한 SI 기획서 컨설팅 전략",
+        "결론: SI 기획서 컨설팅와 une의 미래"
+      ],
+      "content_outline": [
+        "소개: SI 기획서 컨설팅와 intelligence의 개요 및 중요성",
+        "주요 섹션 1: intelligence와 des의 상세 설명",
+        "주요 섹션 2: artificielle의 역할과 활용 방법",
+        "주요 섹션 3: les을 통한 효과적인 SI 기획서 컨설팅 전략",
+        "사례 연구: une를 활용한 성공 사례",
+        "FAQ 및 자주 묻는 질문",
+        "결론 및 요약"
+      ]
+    }
+  ],
+  "seo_keywords": {
+    "primary": [
+      [
+        "intelligence",
+        17
+      ],
+      [
+        "des",
+        15
+      ],
+      [
+        "artificielle",
+        13
+      ],
+      [
+        "les",
+        11
+      ],
+      [
+        "une",
+        7
+      ]
+    ],
+    "secondary": [
+      [
+        "sur",
+        5
+      ],
+      [
+        "est",
+        5
+      ],
+      [
+        "qui",
+        5
+      ],
+      [
+        "types",
+        5
+      ],
+      [
+        "dans",
+        5
+      ],
+      [
+        "views",
+        5
+      ],
+      [
+        "générale",
+        4
+      ],
+      [
+        "spécifiques",
+        4
+      ],
+      [
+        "capacités",
+        4
+      ],
+      [
+        "t1uls",
+        4
+      ]
+    ],
+    "related": [
+      [
+        "orthographic",
+        4
+      ],
+      [
+        "bna",
+        3
+      ],
+      [
+        "s4o",
+        3
+      ],
+      [
+        "unp",
+        3
+      ],
+      [
+        "vise",
+        3
+      ],
+      [
+        "humaine",
+        3
+      ],
+      [
+        "réaliser",
+        3
+      ],
+      [
+        "comme",
+        3
+      ],
+      [
+        "humain",
+        3
+      ],
+      [
+        "tâches",
+        3
+      ],
+      [
+        "applications",
+        3
+      ],
+      [
+        "que",
+        3
+      ],
+      [
+        "humaines",
+        3
+      ],
+      [
+        "asi",
+        3
+      ],
+      [
+        "théorique",
+        3
+      ]
+    ]
+  },
+  "timestamp": "20250401_154053",
+  "saved_files": {
+    "search_results": "SI 기획서 컨설팅_20250401_154053_search_results.json",
+    "extracted_content": "SI 기획서 컨설팅_20250401_154053_extracted_content.json",
+    "analysis_result": "SI 기획서 컨설팅_20250401_154053_lda_analysis.json"
+  }
+}

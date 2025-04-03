@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>검색 토픽 분석</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script src="https://cdn.jsdelivr.net/npm/plotly.js@2.16.1/dist/plotly.min.js"></script>
+    <style>
+        .keyword-tag {
+            display: inline-block;
+            padding: 5px 10px;
+            margin: 5px;
+            background-color: #f0f0f0;
+            border-radius: 15px;
+            font-size: 14px;
+        }
+        .primary-keyword {
+            background-color: #d1e7dd;
+            color: #0c5460;
+            font-weight: bold;
+        }
+        .secondary-keyword {
+            background-color: #cce5ff;
+            color: #004085;
+        }
+        .keyword-frequency {
+            font-size: 12px;
+            color: #666;
+            margin-left: 5px;
+        }
+        .content-section-card {
+            transition: all 0.3s ease;
+        }
+        .content-section-card:hover {
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transform: translateY(-2px);
+        }
+        .action-btn {
+            transition: all 0.2s;
+        }
+        .action-btn:hover {
+            transform: scale(1.05);
+        }
+        .topic-chart {
+            height: 300px;
+            margin-top: 20px;
+        }
+        .dashboard-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .download-btn {
+            background-color: #28a745;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5 mb-5">
+        <div class="row mb-5">
+            <div class="col-md-12 text-center">
+                <div class="d-flex justify-content-center align-items-center">
+                    <h1 class="mr-3">검색 토픽 분석</h1>
+                    <div class="language-switcher btn-group ms-3">
+                        <button class="btn btn-primary" onclick="window.location.href='?lang=ko'">한국어</button>
+                        <button class="btn btn-outline-primary" onclick="window.location.href='?lang=en'">English</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-4">
+            <div class="card-body">
+                <h2 class="card-title mb-3">검색어 입력</h2>
+                <div class="mb-3">
+                    <div class="input-group">
+                        <input type="text" id="search-query" class="form-control" placeholder="검색어를 입력하세요...">
+                        <button class="btn btn-primary" id="search-button">검색</button>
+                    </div>
+                </div>
+                <p class="text-muted small">이 기능은 구글/네이버/다음에서 검색 결과를 가져와 LDA 토픽 모델링을 수행합니다.</p>
+                
+                <div class="text-end">
+                    <button id="initSavedResultsBtn" class="btn btn-outline-primary">저장된 결과 보기</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 저장된 결과 섹션 -->
+        <div id="savedResultsSection" class="card mb-4 d-none" style="border: 2px solid #4e73df;">
+            <div class="card-header bg-primary text-white">
+                <h5 class="mb-0">저장된 분석 결과</h5>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th scope="col">검색어</th>
+                                <th scope="col">날짜/시간</th>
+                                <th scope="col">주제 수</th>
+                                <th scope="col">토큰 수</th>
+                                <th scope="col">작업</th>
+                            </tr>
+                        </thead>
+                        <tbody id="savedResultsListDirect">
+                            <!-- 여기에 결과가 동적으로 추가됩니다 -->
+                        </tbody>
+                    </table>
+                    <div id="noSavedResultsDirect" class="alert alert-info d-none">
+                        저장된 분석 결과가 없습니다.
+                    </div>
+                </div>
+                <div class="text-end mt-3">
+                    <button type="button" id="closeSavedResultsBtn" class="btn btn-secondary">닫기</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="loading" class="text-center p-4 d-none">
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">로딩 중...</span>
+            </div>
+            <p class="mt-2">검색 중...</p>
+        </div>
+        
+        <div id="results-container" class="d-none">
+            <div class="dashboard-header">
+                <h2>분석 대시보드</h2>
+                <div class="action-buttons">
+                    <button id="savedResultsBtn" class="btn btn-info me-2">저장된 결과</button>
+                    <a href="/download_lda_results" id="downloadBtn" class="btn btn-success action-btn">LDA 분석 결과 다운로드</a>
+                </div>
+            </div>
+            
+            <div class="row mb-4">
+                <div class="col-md-12">
+                    <div class="card summary-card">
+                        <div class="card-header bg-primary text-white">
+                            <h3 class="card-title mb-0">분석 결과 요약</h3>
+                        </div>
+                        <div class="card-body">
+                            <p id="results-summary" class="mb-4 fs-5"></p>
+                            
+                            <!-- 토픽 요약 정보가 먼저 표시됩니다 -->
+                            <div class="topics-summary mb-4">
+                                <h4 class="mb-3">주요 토픽 요약</h4>
+                                <div id="topics-summary-container" class="row"></div>
+                            </div>
+                            
+                            <hr class="my-4">
+                            
+                            <!-- 토큰 통계 정보는 그 다음에 표시됩니다 -->
+                            <div id="token-stats">
+                                <h4 class="mb-3">토큰 통계</h4>
+                                <div id="token-count" class="fs-5 mb-3"></div>
+                                <div id="top-tokens-container">
+                                    <h5 class="mb-3">상위 토큰</h5>
+                                    <div id="top-tokens" class="token-cloud"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mb-4">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-header bg-info text-white">
+                            <h3 class="card-title mb-0">토픽 시각화</h3>
+                        </div>
+                        <div class="card-body">
+                            <div id="topic-chart" class="topic-chart"></div>
+                            <div id="visualization-container"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mb-4">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-header bg-success text-white">
+                            <h3 class="card-title mb-0">주요 토픽 상세</h3>
+                        </div>
+                        <div class="card-body">
+                            <div id="topics-container" class="topics-detail-container"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <!-- Bootstrap 스크립트를 페이지 하단으로 이동 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

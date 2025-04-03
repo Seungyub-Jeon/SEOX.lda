@@ -1,0 +1,11 @@
+flask==2.2.3
+requests==2.28.2
+beautifulsoup4==4.11.2
+google-search-results==2.4.2
+google==3.0.0
+nltk==3.8.1
+konlpy==0.6.0
+gensim==4.3.1
+pyLDAvis==3.4.1
+scikit-learn==1.2.2
+jpype1==1.4.1

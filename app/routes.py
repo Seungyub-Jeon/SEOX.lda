@@ -113,9 +113,11 @@ def search():
         
         # 유효한 콘텐츠만 필터링
         valid_content_list = []
-        for content in content_list:
+        valid_urls = []
+        for i, (content, result) in enumerate(zip(content_list, results)):
             if isinstance(content, str) and len(content.strip()) > 100:
                 valid_content_list.append(content)
+                valid_urls.append(result.get("url", ""))
         
         # 콘텐츠가 없으면 오류 반환
         if not valid_content_list:
@@ -124,11 +126,14 @@ def search():
         # 각 콘텐츠를 개별적으로 전처리하고 결과 토큰을 합침
         all_tokens = []
         token_analysis = {}
+        processed_contents = []
+        
         for i, content in enumerate(valid_content_list):
             try:
                 tokens = preprocess_text(content, language)
                 if tokens and len(tokens) > 5:  # 최소 토큰 수 확인
                     all_tokens.extend(tokens)
+                    processed_contents.append(tokens)
                     # 토큰 빈도 분석 저장
                     token_freq = {}
                     for token in tokens:
@@ -143,8 +148,10 @@ def search():
                     print(f"콘텐츠 #{i+1}: {len(tokens)}개 토큰 추출")
                 else:
                     print(f"콘텐츠 #{i+1}: 토큰 추출 실패 또는 토큰 부족")
+                    processed_contents.append([])
             except Exception as e:
                 print(f"콘텐츠 #{i+1} 처리 중 오류: {str(e)}")
+                processed_contents.append([])
         
         print(f"전처리된 텍스트 길이: {len(all_tokens)} 토큰")
         
@@ -178,6 +185,48 @@ def search():
                 "keywords": keywords,
                 "weight": weight
             })
+            
+        # 각 URL별 토픽 분포 계산
+        url_topic_distribution = []
+        
+        # LDA 모델을 재활용하여 각 문서에 대한 토픽 분포 계산
+        from gensim import corpora, models
+        
+        # 사전 생성
+        dictionary = corpora.Dictionary(processed_contents)
+        dictionary.filter_extremes(no_below=1, no_above=0.9)
+        
+        # 각 문서를 BoW로 변환
+        corpus = [dictionary.doc2bow(text) for text in processed_contents]
+        
+        # LDA 모델 훈련
+        lda_model = models.LdaModel(
+            corpus=corpus,
+            id2word=dictionary,
+            num_topics=5,
+            passes=15,
+            iterations=50,
+            alpha='auto'
+        )
+        
+        # 각 문서의 토픽 분포 계산
+        for i, (url, doc_bow) in enumerate(zip(valid_urls, corpus)):
+            if not doc_bow:  # 빈 BoW인 경우 건너뜀
+                continue
+                
+            doc_topics = lda_model.get_document_topics(doc_bow)
+            
+            # 토픽 분포 정보 저장
+            url_data = {
+                "url": url,
+                "title": next((r.get("title", "") for r in results if r.get("url") == url), ""),
+                "topic_distribution": [
+                    {"topic_id": topic_id, "weight": float(weight)}
+                    for topic_id, weight in doc_topics
+                ],
+                "content_preview": valid_content_list[i][:300] + "..." if i < len(valid_content_list) else ""
+            }
+            url_topic_distribution.append(url_data)
         
         # 결과 데이터
         result_data = {
@@ -189,6 +238,7 @@ def search():
                 "total_tokens": len(all_tokens),
                 "top_tokens": top_tokens[:50]
             },
+            "url_topic_distribution": url_topic_distribution,  # URL별 토픽 분포 정보 추가
             "timestamp": timestamp,
             "saved_files": {
                 "search_results": os.path.basename(search_results_file),

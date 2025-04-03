@@ -183,6 +183,42 @@
                 </div>
             </div>
             
+            <!-- 참고 콘텐츠 URL 및 토픽 분포 섹션 추가 -->
+            <div class="row mb-4">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-header bg-primary text-white">
+                            <h3 class="card-title mb-0">참고 콘텐츠 URL 및 토픽 분포</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <p class="text-muted">분석에 사용된 콘텐츠 목록과 각 콘텐츠의 토픽 분포를 보여줍니다.</p>
+                            </div>
+                            <div id="reference-urls-container">
+                                <div class="table-responsive">
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">제목</th>
+                                                <th scope="col">URL</th>
+                                                <th scope="col">주요 토픽</th>
+                                                <th scope="col">토픽 분포</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="reference-urls-list">
+                                            <!-- 여기에 URL 목록이 동적으로 추가됩니다 -->
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div id="no-reference-urls" class="alert alert-info d-none">
+                                    참고한 콘텐츠 URL이 없습니다.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
             <div class="row mb-4">
                 <div class="col-md-12">
                     <div class="card">

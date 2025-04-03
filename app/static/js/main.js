@@ -305,38 +305,36 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // 언어와 결과 데이터에 따라 결과 표시
     function displayResults(data, language) {
-        console.log('결과 표시 중:', data);
-        console.log('현재 언어:', language);
-
+        console.log('결과 표시:', data);
+        
         // 결과 컨테이너 표시 및 로딩 인디케이터 숨기기
-        const resultsContainer = document.getElementById('results-container');
         hideLoadingIndicator();
-        if (resultsContainer) {
-            resultsContainer.classList.remove('d-none');
-        }
-
+        resultsContainer.classList.remove('d-none');
+        
         // 다운로드 버튼 URL 설정
-        const downloadBtn = document.getElementById('downloadBtn');
         if (downloadBtn) {
             downloadBtn.href = `/download_lda_results?timestamp=${data.timestamp}`;
         }
-
-        // 결과 요약 표시
-        displayResultsSummary(data, language);
         
-        // 토픽 요약 정보 표시
-        displayTopicsSummary(data.topics);
+        // 요약 정보 표시
+        displayResultsSummary(data, language);
         
         // 토큰 통계 표시
         displayTokenStats(data, language);
         
+        // 토픽 요약 표시
+        displayTopicsSummary(data.topics);
+        
         // 토픽 시각화 표시
         displayTopicVisualization(data);
+        
+        // 참고 콘텐츠 URL 및 토픽 분포 표시
+        displayReferenceURLs(data);
         
         // 주요 토픽 상세 정보 표시
         displayTopicsDetails(data);
         
-        // 저장된 결과에 추가
+        // 결과 데이터 저장 (로컬 스토리지)
         addToSavedResults(data);
     }
 
@@ -1155,5 +1153,127 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
         return timestamp;
+    }
+
+    // 참고 콘텐츠 URL 및 토픽 분포 표시 함수
+    function displayReferenceURLs(data) {
+        const container = document.getElementById('reference-urls-container');
+        const urlsList = document.getElementById('reference-urls-list');
+        const noUrls = document.getElementById('no-reference-urls');
+        
+        if (!container || !urlsList || !noUrls) {
+            console.error('참고 콘텐츠 URL 표시 요소를 찾을 수 없습니다.');
+            return;
+        }
+        
+        // 기존 내용 초기화
+        urlsList.innerHTML = '';
+        
+        // URL 토픽 분포 데이터 확인
+        const urlData = data.url_topic_distribution;
+        
+        if (!urlData || urlData.length === 0) {
+            // URL 데이터가 없는 경우
+            noUrls.classList.remove('d-none');
+            return;
+        }
+        
+        // URL 데이터가 있는 경우 메시지 숨기기
+        noUrls.classList.add('d-none');
+        
+        // 토픽 색상 정보 가져오기 (기존 함수 재사용)
+        const getTopicColorForBar = function(topicId) {
+            const colorScheme = [
+                'rgba(54, 162, 235, 0.8)',   // Blue
+                'rgba(255, 99, 132, 0.8)',   // Red
+                'rgba(75, 192, 192, 0.8)',   // Green
+                'rgba(255, 159, 64, 0.8)',   // Orange
+                'rgba(153, 102, 255, 0.8)'   // Purple
+            ];
+            return colorScheme[topicId % colorScheme.length];
+        };
+        
+        // 각 URL에 대한 정보 추가
+        urlData.forEach(item => {
+            const row = document.createElement('tr');
+            
+            // 제목 준비
+            const title = item.title || '제목 없음';
+            
+            // URL 준비
+            const url = item.url;
+            const truncatedUrl = url.length > 40 ? url.substring(0, 40) + '...' : url;
+            
+            // 주요 토픽 찾기 (가장 높은 비중의 토픽)
+            let mainTopic = { topic_id: -1, weight: 0 };
+            
+            if (item.topic_distribution && item.topic_distribution.length > 0) {
+                mainTopic = item.topic_distribution.reduce((prev, current) => 
+                    (current.weight > prev.weight) ? current : prev, { topic_id: -1, weight: 0 });
+            }
+            
+            // 주요 토픽의 키워드 가져오기
+            let mainTopicKeywords = '';
+            if (mainTopic.topic_id >= 0 && data.topics && data.topics.length > mainTopic.topic_id) {
+                // 해당 토픽의 키워드 상위 3개 추출
+                const topicInfo = data.topics[mainTopic.topic_id];
+                if (topicInfo && topicInfo.keywords) {
+                    mainTopicKeywords = topicInfo.keywords.slice(0, 3).join(', ');
+                }
+            }
+            
+            // 토픽 분포 바 차트 만들기
+            let topicDistributionHtml = '<div class="topic-distribution-bar" style="width:100%; height:20px; display:flex;">';
+            
+            if (item.topic_distribution && item.topic_distribution.length > 0) {
+                // 토픽별 분포 정렬
+                const sortedDist = [...item.topic_distribution].sort((a, b) => b.weight - a.weight);
+                
+                // 토픽 분포 바 생성
+                sortedDist.forEach(topic => {
+                    const width = Math.max(5, Math.round(topic.weight * 100)); // 최소 5% 너비 보장
+                    const color = getTopicColorForBar(topic.topic_id);
+                    topicDistributionHtml += `
+                        <div class="topic-bar" 
+                            data-topic-id="${topic.topic_id}"
+                            data-weight="${topic.weight.toFixed(2)}"
+                            style="width:${width}%; height:100%; background-color:${color}; position:relative;">
+                            <span class="topic-tooltip" style="display:none; position:absolute; bottom:25px; left:0; 
+                                background-color:rgba(0,0,0,0.8); color:white; padding:5px; border-radius:3px; font-size:12px;">
+                                토픽 ${topic.topic_id + 1}: ${(topic.weight * 100).toFixed(1)}%
+                            </span>
+                        </div>
+                    `;
+                });
+            } else {
+                topicDistributionHtml += '<div class="topic-bar" style="width:100%; height:100%; background-color:#ccc;"></div>';
+            }
+            
+            topicDistributionHtml += '</div>';
+            
+            // 행 구성
+            row.innerHTML = `
+                <td>${title}</td>
+                <td><a href="${url}" target="_blank" title="${url}">${truncatedUrl}</a></td>
+                <td>${mainTopic.topic_id >= 0 ? '토픽 ' + (mainTopic.topic_id + 1) + ': ' + mainTopicKeywords : '분석 불가'}</td>
+                <td>${topicDistributionHtml}</td>
+            `;
+            
+            // 토픽 바에 호버 이벤트 추가 (DOM에 추가 후)
+            setTimeout(() => {
+                const topicBars = row.querySelectorAll('.topic-bar');
+                topicBars.forEach(bar => {
+                    bar.addEventListener('mouseenter', function() {
+                        this.querySelector('.topic-tooltip').style.display = 'block';
+                    });
+                    bar.addEventListener('mouseleave', function() {
+                        this.querySelector('.topic-tooltip').style.display = 'none';
+                    });
+                });
+            }, 100);
+            
+            // 테이블에 행 추가
+            urlsList.appendChild(row);
+        });
     }
 });

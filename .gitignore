@@ -10,3 +10,7 @@ ENV/
 
 # API 키 설정 파일
 config.py
+node_modules/
+venv/
+__pycache__/
+*.pyc
